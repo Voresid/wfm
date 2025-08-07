@@ -1,15 +1,14 @@
-# WFM
-Workforce Management
+# WFM "10 gode vaner"
 
-| Målepunkt                        | Beskrivelse                                                                 | Typisk Mål / Benchmark             |
-|-----------------------------------|----------------------------------------------------------------------------|------------------------------------|
-| Service Level (SL)                | Andel af opkald besvaret inden for X sekunder                              | Fx: 80% besvaret på 20 sek.        |
-| Average Speed of Answer (ASA)     | Gennemsnitlig tid før et opkald besvares                                   | Fx: 20-30 sekunder                 |
-| First Call Resolution (FCR)       | Andel af sager løst ved første kontakt                                     | Fx: 70-80%                         |
-| Abandon Rate                      | Andel af opkald hvor kunden lægger på før svar                             | Fx: <5%                            |
-| Average Handle Time (AHT)         | Gennemsnitlig samlet tid per opkald (inkl. samtale og efterbehandling)     | Fx: 4-6 minutter                   |
-| Customer Satisfaction (CSAT)      | Kundetilfredshed målt via f.eks. spørgeskema efter opkald                  | Fx: >85% tilfredshed               |
-| Occupancy Rate                    | Hvor stor en andel af tiden medarbejderen er optaget af opkald             | Fx: 75-85%                         |
-| Call Transfer Rate                | Andel af opkald der viderestilles til en anden afdeling eller agent        | Fx: <10%                           |
-| Queue Time                        | Gennemsnitlig ventetid i kø inden opkald besvares                          | Fx: <30 sekunder                   |
-| Net Promoter Score (NPS)          | Kunders vilje til at anbefale virksomheden                                 | Fx: >50                            |
+| Begreb                        | Definition                                                                                           | Formel / Beregning                                      | Hvad måler det?                                              | Typisk Benchmark (højre kolonne)   |
+|-------------------------------|------------------------------------------------------------------------------------------------------|---------------------------------------------------------|----------------------------------------------------------------|-------------------------------------|
+| Service Level (SL)            | Andel af opkald besvaret inden for en bestemt tidsgrænse                                             | (Opkald besvaret inden for X sek. / Total opkald) x 100 | Hurtighed på at besvare opkald i forhold til mål               | 80% på 20 sek.                     |
+| Average Speed of Answer (ASA) | Gennemsnitlig tid det tager, før et opkald besvares                                                  | Total ventetid for alle besvarede opkald / Antal opkald | Gennemsnitlig ventetid pr. opkald                              | 20-30 sekunder                     |
+| First Call Resolution (FCR)   | Andel af henvendelser, der bliver løst ved første kontakt                                            | (Opkald løst første gang / Total opkald) x 100          | Hvor ofte løses opgaven ved første kontakt                     | 70-75%                             |
+| Abandon Rate                  | Andel af opkald, hvor kunden opgiver, inden der svares                                               | (Antal opgivne opkald / Total opkald) x 100             | Kundernes tålmodighed og oplevet ventetid                      | < 5%                               |
+| Average Handle Time (AHT)     | Gennemsnitlig tid en medarbejder bruger på et opkald inkl. samtale, hold og efterbehandling          | (Samtaletid + Holdtid + Efterbehandling) / Antal opkald | Effektivitet og tidsforbrug pr. henvendelse                    | 4-6 minutter                       |
+| Occupancy Rate                | Andel af tid medarbejderne bruger på at håndtere opkald ift. deres samlede arbejdstid                | (Tid på opkald / (Tid på opkald + ledig tid)) x 100     | Hvor travlt medarbejderne har                                   | 85-90%                             |
+| Call Arrival Rate             | Antal opkald modtaget i en given periode                                                             | Antal opkald / tidsenhed                                | Belastning på callcenter                                      | Varierer                            |
+| Queue Time                    | Gennemsnitlig ventetid for kunder, før de får kontakt                                                | Total ventetid / antal opkald                           | Hvor længe kunderne venter i kø                                 | 20-40 sekunder                     |
+| Call Transfer Rate            | Andel af opkald, der bliver viderestillet til andre medarbejdere eller afdelinger                    | (Antal viderestillede opkald / Total opkald) x 100      | Hvor mange opkald kræver flere ressourcer                       | < 10%                              |
+| Customer Satisfaction (CSAT)  | Kundernes tilfredshed målt efter kontakt                                                             | (Antal positive svar / antal svar) x 100                | Direkte kundeoplevelse                                         | 80%+                               |
